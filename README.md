@@ -60,12 +60,6 @@ Per avviare il server locale esegui:
 node server.js
 ```
 
-In alternativa, se nel file `package.json` è presente uno script dedicato, puoi usare:
-
-```bash
-npm start
-```
-
 Dopo l'avvio, apri il browser all'indirizzo mostrato dal server locale, di solito qualcosa come:
 
 ```text
