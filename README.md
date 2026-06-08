@@ -73,7 +73,7 @@ Una volta aperta l'app nel browser:
 1. Attendi il caricamento completo della pagina.
 2. Usa l'opzione di installazione del browser.
 3. Installa l'app sul dispositivo.
-4. Avvia l'app dall'icona creata sul desktop o nel menu applicazioni.[page:1]
+4. Avvia l'app dall'icona creata sul desktop o nel menu applicazioni.
 
 ## Struttura del progetto
 
@@ -87,13 +87,13 @@ PWAmusic/
 └── .gitignore
 ```
 
-Questa struttura mostra che il progetto utilizza un server Node.js con file principale `server.js` e una cartella `public` per le risorse statiche dell'applicazione.[page:1]
+Questa struttura mostra che il progetto utilizza un server Node.js con file principale `server.js` e una cartella `public` per le risorse statiche dell'applicazione.
 
 ## Note tecniche
 
-- La riproduzione dei video richiede una connessione Internet, perché i contenuti vengono caricati in streaming da YouTube.[page:1]
-- I dati della playlist vengono salvati nel `localStorage` del browser, quindi restano disponibili solo sul dispositivo e browser in cui sono stati memorizzati.[page:1]
-- `localStorage` presenta limiti di capacità e salva i dati come stringhe, ma è stato scelto per semplicità e per gli obiettivi didattici del progetto.[page:1]
+- La riproduzione dei video richiede una connessione Internet, perché i contenuti vengono caricati in streaming da YouTube.
+- I dati della playlist vengono salvati nel `localStorage` del browser, quindi restano disponibili solo sul dispositivo e browser in cui sono stati memorizzati.
+- `localStorage` presenta limiti di capacità e salva i dati come stringhe, ma è stato scelto per semplicità e per gli obiettivi didattici del progetto.
 
 
 ## Autore
